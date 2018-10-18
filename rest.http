@@ -1,0 +1,6 @@
+POST http://localhost:3030/imovel/popular HTTP/1.1
+content-type: application/json
+
+{
+    "csv_path": "./Crawler_vivareal_venda_2017_desafio.csv"
+}

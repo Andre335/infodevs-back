@@ -1,0 +1,22 @@
+{
+  "name": "infodevs-back",
+  "version": "1.0.0",
+  "description": "README da infodevs-back",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre335/infodevs-back.git"
+  },
+  "author": "Andre Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre335/infodevs-back/issues"
+  },
+  "homepage": "https://github.com/Andre335/infodevs-back#readme",
+  "dependencies": {
+    "csv-reader": "^1.0.3"
+  }
+}
