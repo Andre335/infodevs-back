@@ -30,13 +30,14 @@ exports.createMany = async (req, res) => {
                .on('data', (row) => {
                    row = row[0].split(';');
                    const imovel = {
+                        data: row[0],
                         logradouro: row[1],
                         numero: row[2],
                         bairro: row[3],
+                        condominio: row[4],
                         lat: row[15],
                         lng: row[16],
-                        preco: row[5],
-                        data: row[0]
+                        preco: row[5]
                    }
                    
                    try {

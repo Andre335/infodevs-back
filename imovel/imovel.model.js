@@ -36,6 +36,9 @@ var imovelSchema = new Schema({
     },
     data: {
         type: String
+    },
+    condominio: {
+        type: String
     }
 });
 
